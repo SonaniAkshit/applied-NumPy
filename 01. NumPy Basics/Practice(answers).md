@@ -89,8 +89,29 @@ a + b
 ### Hard
 
 15. Why is NumPy written in C internally?
+> NumPy is written in C internally to achieve high performance.
+C allows low-level memory control and fast numerical operations, which makes NumPy much faster than pure Python for numerical computation.
+
+
 16. How does CPU cache help NumPy speed?
+> CPU cache helps NumPy because data stored in contiguous memory can be loaded into cache efficiently.
+This reduces slow memory access and allows the CPU to process many values quickly in sequence.
+
 17. Why are shape bugs common in ML pipelines?
+> Shape bugs are common in ML pipelines because data passes through many transformations and models expect specific input dimensions.
+A small shape mismatch can silently propagate or cause errors, making shape management critical.
+
 18. Explain one real-world NumPy use case
+> One real-world NumPy use case is feature normalization in machine learning.
+Numerical features are converted into NumPy arrays and scaled using vectorized operations before being fed into ML models.
+
+
 19. Why is `import numpy as np` a standard?
+> `import numpy as np` is a standard because it is short, readable, and used consistently across the Python and data science ecosystem.
+Using the same alias improves code clarity, collaboration, and compatibility with documentation and examples.
+
+
 20. What happens if you treat NumPy like a list?
+> If you treat NumPy like a list, you end up using loops, ignoring shape and dtype, and losing performance.
+This leads to slower code, hard-to-debug errors, and incorrect behavior in data science and ML workflows.
+
