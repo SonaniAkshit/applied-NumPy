@@ -800,9 +800,3 @@ Best practice:
 * `flags` reveal safety and layout
 
 ---
-
-If you want, next I recommend:
-**Reshaping & View vs Copy**
-This is where most ML bugs are born.
-
-Give the next topic when ready.
