@@ -28,22 +28,39 @@ This repository covers **only the essential NumPy topics required for a data sci
 Each topic is stored in a **separate folder** with notes, PDF, and practical notebooks.
 
 *1. NumPy Basics*
+
 *2. Creating NumPy Arrays*
+
 *3. Array Properties*
+
 *4. Indexing & Slicing*
+
 *5. Boolean Masking & Filtering*
+
 *6. Vectorized Operations*
+
 *7. Universal Functions (ufuncs)*
+
 *8. Aggregation & Statistics*
+
 *9. Axis Concept*
+
 *10. Shape Manipulation*
+
 *11. Broadcasting*
+
 *12. Random Module*
+
 *13. Linear Algebra (Practical)*
+
 *14. Sorting & Searching*
+
 *15. Missing Values Handling*
+
 *16. Data Type Control*
+
 *17. Performance Concepts*
+
 *18. NumPy to Pandas Bridge*
 
 ---
