@@ -1,78 +1,82 @@
 # NumPy for Data Science
 
-This repository documents my **focused learning of NumPy**, built specifically for a **data science career**.
+This repository documents my **focused and structured learning of NumPy**, built specifically for a **data science career**.
 
-The goal is not to cover every NumPy feature, but to **master the core numerical concepts** that are actually used in:
+The goal is not to cover every NumPy feature.
+The goal is to **master the NumPy concepts that are actually used** in real-world data science, machine learning, and numerical computing.
 
-* Data preprocessing
-* Exploratory data analysis
-* Machine learning foundations
-* Performance-oriented numerical computing
+This repository is designed to build a **strong mental model of arrays, shapes, axes, and vectorized operations**, which makes Pandas, ML, and deep learning much easier to understand later.
 
-This repository is designed to build a **strong mental model of arrays, shapes, and vectorized operations**, which makes learning Pandas and machine learning significantly easier.
-
-
+---
 
 ## 🎯 Repository Goal
 
-To become **comfortable and confident with NumPy** as the numerical backbone of data science.
+To become **comfortable, confident, and precise with NumPy** as the numerical backbone of data science.
 
-By the end of this repository, I aim to:
+By completing this repository, I aim to:
 
 * Think in terms of **arrays instead of loops**
-* Understand **rows, columns, shapes, and axes clearly**
-* Write **clean and efficient numerical code**
-* Prepare a solid foundation for **Pandas, ML, and DL**
+* Clearly understand **rows, columns, shapes, and axes**
+* Write **clean, efficient, vectorized NumPy code**
+* Build a strong foundation for **Pandas, ML, and DL**
 
+---
 
+## 📌 NumPy Topics Covered
 
-## 📌 What This Repository Covers
+This repository covers **only the essential NumPy topics required for a data science career**.
+Each topic is stored in a **separate folder** with notes, PDF, and practical notebooks.
 
-Only **essential NumPy topics** required for real data science work:
+*1. NumPy Basics*
+*2. Creating NumPy Arrays*
+*3. Array Properties*
+*4. Indexing & Slicing*
+*5. Boolean Masking & Filtering*
+*6. Vectorized Operations*
+*7. Universal Functions (ufuncs)*
+*8. Aggregation & Statistics*
+*9. Axis Concept*
+*10. Shape Manipulation*
+*11. Broadcasting*
+*12. Random Module*
+*13. Linear Algebra (Practical)*
+*14. Sorting & Searching*
+*15. Missing Values Handling*
+*16. Data Type Control*
+*17. Performance Concepts*
+*18. NumPy to Pandas Bridge*
 
-* NumPy arrays and fundamentals
-* Difference between Python lists and NumPy arrays
-* Creating arrays and understanding their structure
-* Shape, dimension, size, and datatype
-* Indexing, slicing, and data selection
-* Boolean masking and filtering
-* Vectorized mathematical operations
-* Aggregations and basic statistics
-* Axis-based computations
-* Reshaping and broadcasting
-* Random number generation
-* Handling missing values
-* Practical linear algebra for ML
-* Performance basics and vectorization
-* Smooth transition from NumPy to Pandas
+---
 
-Anything outside this scope is intentionally excluded to avoid overload.
+## 📂 Repository Structure
 
-<!-- ## 📂 Repository Structure
-
-Each topic follows the same simple structure:
+Each topic is organized in **one separate folder**, following the same clean structure:
 
 ```
 topic_name/
 │
-├── notes.ipynb              # Concept explanations + small examples
-├── practice_questions.md    # Easy → hard practice problems
-└── practice.ipynb           # Solved exercises and experiments
+├── notes.md                 # Detailed concept notes
+├── topic_name.pdf           # PDF version of the notes
+├── practice.ipynb           # Practical experiments and exercises
 ```
 
-This structure supports **learning, practice, and revision**. -->
+This structure supports:
 
+* Clear concept understanding
+* Easy revision
+* Practical application
 
+---
 
 ## 🧠 Learning Approach
 
 * One topic at a time
-* No rushing
 * Concepts before shortcuts
 * Practice after every topic
 * Focus on understanding, not memorization
+* No rushing, no overload
 
-
+---
 
 ## 🛠 Tools Used
 
@@ -81,19 +85,18 @@ This structure supports **learning, practice, and revision**. -->
 * Jupyter Notebook
 * Git & GitHub
 
-
+---
 
 ## ⚠️ Notes
 
-* This is a **learning repository**, not a finished product
-* Code and notes may be refined as understanding improves
-* The emphasis is on **clarity and correctness**
-* Depth is prioritized over speed
+* This is a **learning-focused repository**
+* Notes and code may be refined over time
+* Priority is **clarity, correctness, and depth**
+* Speed is intentionally not the focus
 
-
+---
 
 ## 👤 Author
 
 **Akshit Sonani**
 Aspiring Data Scientist
-
