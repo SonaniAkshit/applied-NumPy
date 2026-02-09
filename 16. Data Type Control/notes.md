@@ -1,9 +1,3 @@
-Understood. I will stick to this approach strictly.
-
-Below are **clean, strict, copy-paste-ready professional notes** for your GitHub NumPy repository.
-
----
-
 # 16. Data Type Control (NumPy)
 
 ---
