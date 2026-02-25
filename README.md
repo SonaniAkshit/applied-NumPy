@@ -1,119 +1,137 @@
-# NumPy for Data Science
+Got it. You’re right.
+What I wrote earlier reads like a course or tutorial. That’s not what this repo is. This is **your learning log**, and the README should reflect that.
 
-This repository documents my **focused and structured learning of NumPy**, built specifically for a **data science career**.
+Here’s a **rewritten README** that sounds like **your personal learning progress**, clean and professional, without tutorial vibes or marketing fluff.
 
-The goal is not to cover every NumPy feature.
-The goal is to **master the NumPy concepts that are actually used** in real-world data science, machine learning, and numerical computing.
-
-This repository is designed to build a **strong mental model of arrays, shapes, axes, and vectorized operations**, which makes Pandas, ML, and deep learning much easier to understand later.
+You can paste this directly.
 
 ---
 
-## 🎯 Repository Goal
+# Applied NumPy
 
-To become **comfortable, confident, and precise with NumPy** as the numerical backbone of data science.
+This repository documents **my hands-on learning progress with NumPy**.
 
-By completing this repository, I aim to:
+I built this repo while learning NumPy from the ground up, focusing on **understanding concepts by implementing them**, not just reading theory.
+Each topic is broken into its own folder with **notes I wrote for myself** and **practical code experiments**.
 
-* Think in terms of **arrays instead of loops**
-* Clearly understand **rows, columns, shapes, and axes**
-* Write **clean, efficient, vectorized NumPy code**
-* Build a strong foundation for **Pandas, ML, and DL**
+This is not a polished course or library. It’s a **learning-first repository**.
 
 ---
 
-## 📌 NumPy Topics Covered
+## Why I Created This Repo
 
-This repository covers **only the essential NumPy topics required for a data science career**.
-Each topic is stored in a **separate folder** with notes, PDF, and practical notebooks.
+* To understand NumPy deeply instead of memorizing syntax
+* To move from Python lists to array-based thinking
+* To build a solid foundation for data science and machine learning
+* To keep a clean, revisitable record of what I actually learned
 
-*1. NumPy Basics*
-
-*2. Creating NumPy Arrays*
-
-*3. Array Properties*
-
-*4. Indexing & Slicing*
-
-*5. Boolean Masking & Filtering*
-
-*6. Vectorized Operations*
-
-*7. Universal Functions (ufuncs)*
-
-*8. Aggregation & Statistics*
-
-*9. Axis Concept*
-
-*10. Shape Manipulation*
-
-*11. Broadcasting*
-
-*12. Random Module*
-
-*13. Linear Algebra (Practical)*
-
-*14. Sorting & Searching*
-
-*15. Missing Values Handling*
-
-*16. Data Type Control*
-
-*17. Performance Concepts*
-
-*18. NumPy to Pandas Bridge*
+If something exists here, it’s because I needed it to understand NumPy better.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
-Each topic is organized in **one separate folder**, following the same clean structure:
+Each folder represents **one concept I studied**, in the order I learned it.
 
-```
-topic_name/
+```id="s3t1h0"
+applied-numpy/
 │
-├── notes.md                 # Detailed concept notes
-├── topic_name.pdf           # PDF version of the notes
-├── practice.ipynb           # Practical experiments and exercises
+├── 01-Introduction-to-Numpy
+├── 02-Creating-N-d-Arrays
+├── 03-Some-Important-Attributes
+├── 04-Python-Lists-Vs-Numpy-Arrays
+├── 05-Indexing-Slicing-and-Iteration
+├── 06-Numpy-Operations
+├── 07-Reshaping-Numpy-arrays
+├── 08-Fancy-indexing-in-Numpy
+├── 09-Indexing-with-Boolean-Arrays
+├── 10-Plotting-graphs-using-Numpy
+├── 11-Broadcasting
+└── 12-Some-important-numpy-functions
 ```
 
-This structure supports:
+Every folder contains:
 
-* Clear concept understanding
-* Easy revision
-* Practical application
-
----
-
-## 🧠 Learning Approach
-
-* One topic at a time
-* Concepts before shortcuts
-* Practice after every topic
-* Focus on understanding, not memorization
-* No rushing, no overload
+* **Notes** written in my own words
+* **Code implementations** I ran and tested myself
 
 ---
 
-## 🛠 Tools Used
+## What I Covered (In Learning Order)
 
-* Python
+### 1. Introduction to NumPy
+
+Started by understanding what NumPy actually solves and why it’s used instead of Python lists for numerical work.
+
+### 2. Creating N-D Arrays
+
+Learned how NumPy represents data using 1D, 2D, and higher-dimensional arrays and different ways to create them.
+
+### 3. Important Array Attributes
+
+Explored how arrays store shape, size, dimensions, and data types and why these matter.
+
+### 4. Python Lists vs NumPy Arrays
+
+Compared behavior, performance, and limitations. This was where array-based thinking started to click.
+
+### 5. Indexing, Slicing, and Iteration
+
+Practiced accessing and modifying data properly without relying on slow Python loops.
+
+### 6. NumPy Operations
+
+Worked through arithmetic, mathematical, and statistical operations directly on arrays.
+
+### 7. Reshaping Arrays
+
+Learned how to change array shapes and layouts without losing data.
+
+### 8. Fancy Indexing
+
+Experimented with selecting data using index arrays instead of simple slices.
+
+### 9. Boolean Indexing
+
+Used conditions to filter data, similar to how real datasets are handled.
+
+### 10. Plotting Using NumPy
+
+Generated numerical data using NumPy and used it for plotting and analysis.
+
+### 11. Broadcasting
+
+Understood how NumPy handles operations between arrays of different shapes and why it’s powerful.
+
+### 12. Important NumPy Functions
+
+Collected frequently used functions that kept showing up during practice and experiments.
+
+---
+
+## How I Use This Repo
+
+* I revisit folders when concepts feel weak
+* I modify the code to test edge cases
+* I use this as a reference before moving to pandas, ML, and deep learning
+
+This repo grows only when my understanding grows.
+
+---
+
+## Requirements
+
+* Python 3.x
 * NumPy
-* Jupyter Notebook
-* Git & GitHub
+
+```bash id="w_1fnn"
+pip install numpy
+```
 
 ---
 
-## ⚠️ Notes
+## Final Note
 
-* This is a **learning-focused repository**
-* Notes and code may be refined over time
-* Priority is **clarity, correctness, and depth**
-* Speed is intentionally not the focus
+This repository represents **learning in progress**, not finished expertise.
 
----
-
-## 👤 Author
-
-**Akshit Sonani**
-Aspiring Data Scientist
+The focus is on **thinking correctly with arrays**, because without that, everything built on top of NumPy breaks.
