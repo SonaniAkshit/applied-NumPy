@@ -1,12 +1,3 @@
-Got it. You’re right.
-What I wrote earlier reads like a course or tutorial. That’s not what this repo is. This is **your learning log**, and the README should reflect that.
-
-Here’s a **rewritten README** that sounds like **your personal learning progress**, clean and professional, without tutorial vibes or marketing fluff.
-
-You can paste this directly.
-
----
-
 # Applied NumPy
 
 This repository documents **my hands-on learning progress with NumPy**.
